@@ -1,0 +1,26 @@
+Queue is that type of data structure which use the concepts of first in first out (FIFO).
+In this DS, item that enter first is removed first from the Queue.
+
+-Types of Queue:
+    1. ArrayQueue
+    2. Linkedlist 
+    3. PrimaryQueue
+
+
+   
+
+The Queue interface includes all the methods of the Collection interface. It is because Collection is the supe interface of Queue.
+
+Some of the commonly used methods interface are: 
+
+- common methods in Queue
+
+    1. offer() - adding and returns boolean value on opeartion.
+    2. poll() - remove and return value
+    3. peek() - getting the value that will be removed next, and return null if the Queue is empty.
+
+    ------------
+    
+    4. add() - inserts the specific element into the Queue. If the task is successful, returns true, if not it throwa exception.
+    5. element() - returns the head of the Queue. Throws an exception if the Queue is empty.
+    6. remove() - returns and removes the head of the Queue. Throws an exception if the Queue is empty.
